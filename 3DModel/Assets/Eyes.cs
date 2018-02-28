@@ -29,10 +29,18 @@ public partial class Eyes : MonoBehaviour
 		transform_list_to_array(eyeL_leds);
 		rotated = RotateMatrix(eyeMatrix, 8);
 
-	print(rotated[0,0]);
-	print(rotated[1,0]);
-	print(rotated[2,0]);
-		print_eyes(heart_test_bmp);
+	//	print(eyeMatrix[0,0]);
+	//	print(eyeMatrix[1,0]);
+	//	print(eyeMatrix[2,0]);
+
+		
+		print(rotated[0,0]);
+		print(rotated[1,0]);
+		print(rotated[2,0]);
+		
+	//	reset_matrix(eyeMatrix);
+		
+// 		print_eyes(heart_test_bmp);
 
 
 	}
@@ -74,14 +82,30 @@ public partial class Eyes : MonoBehaviour
 		
 		GameObject [,] newArray = new GameObject[n,n];
 
-		for (int i=7;i>=0;--i)
+		for (int i = 0; i<8; i++)
 		{
-			for (int j=0;j<8;++j)
+			for (int j=0; j<8; j++)
 			{
-				newArray[j,7-i] = matrix[i,j];
+				newArray[Mathf.Abs(j-7), i] = matrix[i,j];
 			}
 		}
 		return newArray;
+	}
+
+	void reset_matrix(GameObject[,] matrix)
+	{
+		int i = 0;
+		int j = 0;
+		while (j < 8)
+		{
+			i = 0;
+			while (i < 8)
+			{
+				matrix[i, j].SetActive(false);
+				i++;
+			}
+			j++;
+		}
 	}
 	
 	
@@ -89,34 +113,50 @@ public partial class Eyes : MonoBehaviour
 	void print_eyes(byte[] x)
 	{
 		int i = 0;
-		foreach (var item in eyeL_leds)
-		{
-			item.SetActive(false);
-		}
+
 		while (i < 8)
 		{
 			if ((x[i] & 1) == 1) // B000000101 & 00000001 == 1 
-			{  
-	//			eyeL_leds[(8 * i) + 7].SetActive(true);
-				rotated[i, 7].SetActive(true);
+			{
+			//			eyeL_leds[(8 * i) + 7].SetActive(true);
+				eyeMatrix[7, i].SetActive(true);
 			}
 			if ((x[i] & 2) == 2)
 			{
-	//			eyeL_leds[(8 * i) + 6].SetActive(true);
+			//			eyeL_leds[(8 * i) + 6].SetActive(true);
+				eyeMatrix[6, i].SetActive(true);
 			}
 			if ((x[i] & 4) == 4)
-	//			eyeL_leds[(8 * i) + 5].SetActive(true);
+			{
+			//			eyeL_leds[(8 * i) + 5].SetActive(true);
+				eyeMatrix[5, i].SetActive(true);
+			}
 			if ((x[i] & 8) == 8)
-	//			eyeL_leds[(8 * i) + 4].SetActive(true);
+			{
+			//			eyeL_leds[(8 * i) + 4].SetActive(true);
+				eyeMatrix[4, i].SetActive(true);
+			}
 			if ((x[i] & 16) == 16)
-	//			eyeL_leds[(8 * i) + 3].SetActive(true);
+			{
+				eyeMatrix[3, i].SetActive(true);
+			//	eyeL_leds[(8 * i) + 3].SetActive(true);
+			}
 			if ((x[i] & 32) == 32)
-	//			eyeL_leds[(8 * i) + 2].SetActive(true);
+			{
+				eyeMatrix[2, i].SetActive(true);
+			//	eyeL_leds[(8 * i) + 2].SetActive(true);
+			}
 			if ((x[i] & 64) == 64)
-	//			eyeL_leds[(8 * i) + 1].SetActive(true);
+			{
+				eyeMatrix[1, i].SetActive(true);
+			//			eyeL_leds[(8 * i) + 1].SetActive(true);
+			}
 			if ((x[i] & 128) == 128)
-	//			eyeL_leds[(8 * i) + 0].SetActive(true);
-			i++;
+			{
+			//			eyeL_leds[(8 * i) + 0].SetActive(true); */
+				eyeMatrix[0, i].SetActive(true);
+			}
+			i++; 
 		}
 	}
 	
@@ -154,6 +194,4 @@ public partial class Eyes : MonoBehaviour
 			56,
 			0,
 		};
-	
-	
 }
