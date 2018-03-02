@@ -28,6 +28,8 @@ public partial class Eyes : MonoBehaviour
 
 		transform_list_to_array(eyeL_leds);
 		rotated = RotateMatrix(eyeMatrix, 8);
+		rotated = RotateMatrix(eyeMatrix, 8);
+		rotated = RotateMatrix(eyeMatrix, 8);
 
 	//	print(eyeMatrix[0,0]);
 	//	print(eyeMatrix[1,0]);
@@ -35,8 +37,14 @@ public partial class Eyes : MonoBehaviour
 
 		
 		print(rotated[0,0]);
-		print(rotated[1,0]);
-		print(rotated[2,0]);
+                            		print(rotated[1,0]);
+                            		print(rotated[2,0]);
+		print(rotated[3,0]);
+		print(rotated[4,0]);
+		print(rotated[5,0]);
+		print(rotated[6,0]);
+		print(rotated[7,0]);
+		print(rotated[8,0]);
 		
 	//	reset_matrix(eyeMatrix);
 		

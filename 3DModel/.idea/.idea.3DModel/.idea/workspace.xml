@@ -11,63 +11,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Anim.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Anim.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Anim.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+            <state relative-caret-position="780">
+              <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
               <folding>
-                <marker date="1519567388601" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519567388601" expanded="true" signature="113:1844" ph="{...}" />
-                <marker date="1519567388601" expanded="true" signature="363:409" ph="{...}" />
-                <marker date="1519567388601" expanded="true" signature="426:889" ph="{...}" />
-                <marker date="1519567388601" expanded="true" signature="458:660" ph="{...}" />
-                <marker date="1519567388601" expanded="true" signature="465:544" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
-                <marker date="1519567388601" expanded="true" signature="705:771" ph="{...}" />
-                <marker date="1519567388601" expanded="true" signature="891:1109" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
-                <marker date="1519567388601" expanded="true" signature="1180:1466" ph="{...}" />
-                <marker date="1519567388601" expanded="true" signature="1262:1463" ph="{...}" />
-                <marker date="1519567388601" expanded="true" signature="1535:1842" ph="{...}" />
-                <marker date="1519567388601" expanded="true" signature="1617:1810" ph="{...}" />
+                <marker date="1519996388823" expanded="true" signature="6:156" ph="..." />
+                <marker date="1519996388823" expanded="true" signature="191:2602" ph="{...}" />
+                <marker date="1519996388823" expanded="true" signature="441:487" ph="{...}" />
+                <marker date="1519996388823" expanded="true" signature="504:1177" ph="{...}" />
+                <marker date="1519996388823" expanded="true" signature="536:948" ph="{...}" />
+                <marker date="1519996388823" expanded="true" signature="543:622" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
+                <marker date="1519996388823" expanded="true" signature="993:1059" ph="{...}" />
+                <marker date="1519996388823" expanded="true" signature="1179:1397" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
+                <marker date="1519996388823" expanded="true" signature="1468:1754" ph="{...}" />
+                <marker date="1519996388823" expanded="true" signature="1550:1751" ph="{...}" />
+                <marker date="1519996388823" expanded="true" signature="1757:2136" ph="/* IEnumerator RotateEar(Transform tr, float RotEar, float duration) ... */" />
+                <marker date="1519996388823" expanded="true" signature="2238:2598" ph="{...}" />
+                <marker date="1519996388823" expanded="true" signature="2257:2281" ph="{...}" />
+                <marker date="1519996388823" expanded="true" signature="2441:2575" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Eyes.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoveObject.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/MoveObject.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+              <folding>
+                <marker date="1519989273119" expanded="false" signature="6:44" ph="..." />
+                <marker date="1519989273119" expanded="true" signature="86:1616" ph="{...}" />
+                <marker date="1519989273119" expanded="true" signature="182:321" ph="{...}" />
+                <marker date="1519989273119" expanded="true" signature="196:304" ph="{...}" />
+                <marker date="1519989273119" expanded="true" signature="428:526" ph="{...}" />
+                <marker date="1519989273119" expanded="true" signature="633:756" ph="{...}" />
+                <marker date="1519989273119" expanded="true" signature="881:1188" ph="{...}" />
+                <marker date="1519989273119" expanded="true" signature="1031:1185" ph="{...}" />
+                <marker date="1519989273119" expanded="true" signature="1273:1614" ph="{...}" />
+                <marker date="1519989273119" expanded="true" signature="1473:1611" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Eyes.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Eyes.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+            <state relative-caret-position="690">
+              <caret line="50" column="35" lean-forward="false" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding>
-                <marker date="1519815264331" expanded="false" signature="6:126" ph="..." />
-                <marker date="1519815264331" expanded="true" signature="170:3227" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="373:960" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="735:814" ph="/* print(eyeMatrix[0,0]); ... */" />
-                <marker date="1519815264331" expanded="true" signature="892:955" ph="/* reset_matrix(eyeMatrix); ... */" />
-                <marker date="1519815264331" expanded="true" signature="1013:1226" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="1106:1223" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="1137:1211" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="1301:1679" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="1303:1484" ph="/* GameObject[,] ret = new GameObject[n, n]; ... */" />
-                <marker date="1519815264331" expanded="true" signature="1565:1657" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="1596:1653" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="1721:1866" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="1766:1863" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="1797:1851" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="1899:2944" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="1932:2941" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="1991:2086" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="2110:2205" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="2229:2324" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="2348:2443" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="2469:2562" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="2588:2681" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="2707:2802" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="2830:2928" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="2982:3036" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="3060:3137" ph="{...}" />
-                <marker date="1519815264331" expanded="true" signature="3160:3224" ph="{...}" />
+                <marker date="1519817182790" expanded="false" signature="6:126" ph="..." />
+                <marker date="1519817182790" expanded="true" signature="373:1234" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="815:894" ph="/* print(eyeMatrix[0,0]); ... */" />
+                <marker date="1519817182790" expanded="true" signature="1166:1229" ph="/* reset_matrix(eyeMatrix); ... */" />
+                <marker date="1519817182790" expanded="true" signature="1287:1500" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="1380:1497" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="1411:1485" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="1575:1953" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="1577:1758" ph="/* GameObject[,] ret = new GameObject[n, n]; ... */" />
+                <marker date="1519817182790" expanded="true" signature="1839:1931" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="1870:1927" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="1995:2140" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="2040:2137" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="2071:2125" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="2173:3218" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="2206:3215" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="2265:2360" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="2384:2479" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="2503:2598" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="2622:2717" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="2743:2836" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="2862:2955" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="2981:3076" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="3104:3202" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="3256:3310" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="3334:3411" ph="{...}" />
+                <marker date="1519817182790" expanded="true" signature="3434:3498" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -83,12 +105,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Eyes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Anim.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MoveObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Anim.cs" />
         <option value="$PROJECT_DIR$/Assets/Eyes.cs" />
+        <option value="$PROJECT_DIR$/Assets/MoveObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Anim.cs" />
       </list>
     </option>
   </component>
@@ -173,12 +197,13 @@
       <workItem from="1519637851648" duration="1699000" />
       <workItem from="1519639601372" duration="13688000" />
       <workItem from="1519722278949" duration="16375000" />
-      <workItem from="1519807082149" duration="8096000" />
+      <workItem from="1519807082149" duration="9991000" />
+      <workItem from="1519983519644" duration="7630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40666000" />
+    <option name="totallyTimeSpent" value="50191000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -226,13 +251,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Eyes.cs</url>
-          <line>42</line>
+          <line>50</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Eyes.cs">
             <startOffsets>
-              <startOffset value="928" />
+              <startOffset value="1202" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="955" />
+              <endOffset value="1229" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
@@ -243,23 +268,84 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Eyes.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="50" column="35" lean-forward="false" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding>
+            <marker date="1519817182790" expanded="false" signature="6:126" ph="..." />
+            <marker date="1519817182790" expanded="true" signature="373:1234" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="815:894" ph="/* print(eyeMatrix[0,0]); ... */" />
+            <marker date="1519817182790" expanded="true" signature="1166:1229" ph="/* reset_matrix(eyeMatrix); ... */" />
+            <marker date="1519817182790" expanded="true" signature="1287:1500" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1380:1497" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1411:1485" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1575:1953" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1577:1758" ph="/* GameObject[,] ret = new GameObject[n, n]; ... */" />
+            <marker date="1519817182790" expanded="true" signature="1839:1931" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1870:1927" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1995:2140" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2040:2137" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2071:2125" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2173:3218" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2206:3215" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2265:2360" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2384:2479" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2503:2598" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2622:2717" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2743:2836" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2862:2955" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2981:3076" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3104:3202" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3256:3310" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3334:3411" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3434:3498" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Anim.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+          <folding>
+            <marker date="1519996388823" expanded="true" signature="6:156" ph="..." />
+            <marker date="1519996388823" expanded="true" signature="191:2602" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="441:487" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="504:1177" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="536:948" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="543:622" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
+            <marker date="1519996388823" expanded="true" signature="993:1059" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1179:1397" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
+            <marker date="1519996388823" expanded="true" signature="1468:1754" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1550:1751" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1757:2136" ph="/* IEnumerator RotateEar(Transform tr, float RotEar, float duration) ... */" />
+            <marker date="1519996388823" expanded="true" signature="2238:2598" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2257:2281" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2441:2575" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Anim.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
           <folding>
-            <marker date="1519567388601" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519567388601" expanded="true" signature="113:1844" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="363:409" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="426:889" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="458:660" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="465:544" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
-            <marker date="1519567388601" expanded="true" signature="705:771" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="891:1109" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
-            <marker date="1519567388601" expanded="true" signature="1180:1466" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1262:1463" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1535:1842" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1617:1810" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="6:156" ph="..." />
+            <marker date="1519996388823" expanded="true" signature="191:2602" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="441:487" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="504:1177" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="536:948" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="543:622" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
+            <marker date="1519996388823" expanded="true" signature="993:1059" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1179:1397" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
+            <marker date="1519996388823" expanded="true" signature="1468:1754" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1550:1751" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1757:2136" ph="/* IEnumerator RotateEar(Transform tr, float RotEar, float duration) ... */" />
+            <marker date="1519996388823" expanded="true" signature="2238:2598" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2257:2281" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2441:2575" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -269,34 +355,33 @@
         <state relative-caret-position="795">
           <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
-            <marker date="1519815264331" expanded="false" signature="6:126" ph="..." />
-            <marker date="1519815264331" expanded="true" signature="170:3227" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="373:960" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="735:814" ph="/* print(eyeMatrix[0,0]); ... */" />
-            <marker date="1519815264331" expanded="true" signature="892:955" ph="/* reset_matrix(eyeMatrix); ... */" />
-            <marker date="1519815264331" expanded="true" signature="1013:1226" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1106:1223" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1137:1211" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1301:1679" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1303:1484" ph="/* GameObject[,] ret = new GameObject[n, n]; ... */" />
-            <marker date="1519815264331" expanded="true" signature="1565:1657" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1596:1653" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1721:1866" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1766:1863" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1797:1851" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1899:2944" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1932:2941" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1991:2086" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2110:2205" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2229:2324" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2348:2443" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2469:2562" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2588:2681" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2707:2802" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2830:2928" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2982:3036" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="3060:3137" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="3160:3224" ph="{...}" />
+            <marker date="1519817182790" expanded="false" signature="6:126" ph="..." />
+            <marker date="1519817182790" expanded="true" signature="373:1234" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="815:894" ph="/* print(eyeMatrix[0,0]); ... */" />
+            <marker date="1519817182790" expanded="true" signature="1166:1229" ph="/* reset_matrix(eyeMatrix); ... */" />
+            <marker date="1519817182790" expanded="true" signature="1287:1500" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1380:1497" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1411:1485" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1575:1953" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1577:1758" ph="/* GameObject[,] ret = new GameObject[n, n]; ... */" />
+            <marker date="1519817182790" expanded="true" signature="1839:1931" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1870:1927" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1995:2140" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2040:2137" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2071:2125" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2173:3218" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2206:3215" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2265:2360" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2384:2479" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2503:2598" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2622:2717" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2743:2836" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2862:2955" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2981:3076" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3104:3202" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3256:3310" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3334:3411" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3434:3498" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -306,18 +391,20 @@
         <state relative-caret-position="525">
           <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
           <folding>
-            <marker date="1519567388601" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519567388601" expanded="true" signature="113:1844" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="363:409" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="426:889" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="458:660" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="465:544" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
-            <marker date="1519567388601" expanded="true" signature="705:771" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="891:1109" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
-            <marker date="1519567388601" expanded="true" signature="1180:1466" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1262:1463" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1535:1842" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1617:1810" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="6:156" ph="..." />
+            <marker date="1519996388823" expanded="true" signature="191:2602" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="441:487" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="504:1177" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="536:948" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="543:622" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
+            <marker date="1519996388823" expanded="true" signature="993:1059" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1179:1397" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
+            <marker date="1519996388823" expanded="true" signature="1468:1754" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1550:1751" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1757:2136" ph="/* IEnumerator RotateEar(Transform tr, float RotEar, float duration) ... */" />
+            <marker date="1519996388823" expanded="true" signature="2238:2598" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2257:2281" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2441:2575" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -327,34 +414,33 @@
         <state relative-caret-position="810">
           <caret line="57" column="16" lean-forward="true" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
           <folding>
-            <marker date="1519815264331" expanded="false" signature="6:126" ph="..." />
-            <marker date="1519815264331" expanded="true" signature="170:3227" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="373:960" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="735:814" ph="/* print(eyeMatrix[0,0]); ... */" />
-            <marker date="1519815264331" expanded="true" signature="892:955" ph="/* reset_matrix(eyeMatrix); ... */" />
-            <marker date="1519815264331" expanded="true" signature="1013:1226" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1106:1223" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1137:1211" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1301:1679" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1303:1484" ph="/* GameObject[,] ret = new GameObject[n, n]; ... */" />
-            <marker date="1519815264331" expanded="true" signature="1565:1657" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1596:1653" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1721:1866" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1766:1863" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1797:1851" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1899:2944" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1932:2941" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1991:2086" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2110:2205" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2229:2324" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2348:2443" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2469:2562" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2588:2681" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2707:2802" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2830:2928" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2982:3036" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="3060:3137" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="3160:3224" ph="{...}" />
+            <marker date="1519817182790" expanded="false" signature="6:126" ph="..." />
+            <marker date="1519817182790" expanded="true" signature="373:1234" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="815:894" ph="/* print(eyeMatrix[0,0]); ... */" />
+            <marker date="1519817182790" expanded="true" signature="1166:1229" ph="/* reset_matrix(eyeMatrix); ... */" />
+            <marker date="1519817182790" expanded="true" signature="1287:1500" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1380:1497" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1411:1485" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1575:1953" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1577:1758" ph="/* GameObject[,] ret = new GameObject[n, n]; ... */" />
+            <marker date="1519817182790" expanded="true" signature="1839:1931" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1870:1927" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1995:2140" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2040:2137" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2071:2125" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2173:3218" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2206:3215" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2265:2360" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2384:2479" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2503:2598" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2622:2717" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2743:2836" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2862:2955" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2981:3076" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3104:3202" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3256:3310" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3334:3411" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3434:3498" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -364,18 +450,20 @@
         <state relative-caret-position="525">
           <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
           <folding>
-            <marker date="1519567388601" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519567388601" expanded="true" signature="113:1844" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="363:409" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="426:889" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="458:660" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="465:544" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
-            <marker date="1519567388601" expanded="true" signature="705:771" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="891:1109" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
-            <marker date="1519567388601" expanded="true" signature="1180:1466" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1262:1463" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1535:1842" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1617:1810" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="6:156" ph="..." />
+            <marker date="1519996388823" expanded="true" signature="191:2602" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="441:487" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="504:1177" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="536:948" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="543:622" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
+            <marker date="1519996388823" expanded="true" signature="993:1059" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1179:1397" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
+            <marker date="1519996388823" expanded="true" signature="1468:1754" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1550:1751" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1757:2136" ph="/* IEnumerator RotateEar(Transform tr, float RotEar, float duration) ... */" />
+            <marker date="1519996388823" expanded="true" signature="2238:2598" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2257:2281" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2441:2575" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -385,34 +473,33 @@
         <state relative-caret-position="570">
           <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
           <folding>
-            <marker date="1519815264331" expanded="false" signature="6:126" ph="..." />
-            <marker date="1519815264331" expanded="true" signature="170:3227" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="373:960" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="735:814" ph="/* print(eyeMatrix[0,0]); ... */" />
-            <marker date="1519815264331" expanded="true" signature="892:955" ph="/* reset_matrix(eyeMatrix); ... */" />
-            <marker date="1519815264331" expanded="true" signature="1013:1226" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1106:1223" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1137:1211" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1301:1679" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1303:1484" ph="/* GameObject[,] ret = new GameObject[n, n]; ... */" />
-            <marker date="1519815264331" expanded="true" signature="1565:1657" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1596:1653" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1721:1866" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1766:1863" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1797:1851" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1899:2944" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1932:2941" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1991:2086" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2110:2205" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2229:2324" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2348:2443" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2469:2562" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2588:2681" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2707:2802" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2830:2928" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2982:3036" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="3060:3137" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="3160:3224" ph="{...}" />
+            <marker date="1519817182790" expanded="false" signature="6:126" ph="..." />
+            <marker date="1519817182790" expanded="true" signature="373:1234" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="815:894" ph="/* print(eyeMatrix[0,0]); ... */" />
+            <marker date="1519817182790" expanded="true" signature="1166:1229" ph="/* reset_matrix(eyeMatrix); ... */" />
+            <marker date="1519817182790" expanded="true" signature="1287:1500" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1380:1497" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1411:1485" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1575:1953" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1577:1758" ph="/* GameObject[,] ret = new GameObject[n, n]; ... */" />
+            <marker date="1519817182790" expanded="true" signature="1839:1931" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1870:1927" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1995:2140" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2040:2137" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2071:2125" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2173:3218" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2206:3215" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2265:2360" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2384:2479" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2503:2598" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2622:2717" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2743:2836" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2862:2955" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2981:3076" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3104:3202" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3256:3310" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3334:3411" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3434:3498" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -422,18 +509,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519567388601" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519567388601" expanded="true" signature="113:1844" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="363:409" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="426:889" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="458:660" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="465:544" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
-            <marker date="1519567388601" expanded="true" signature="705:771" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="891:1109" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
-            <marker date="1519567388601" expanded="true" signature="1180:1466" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1262:1463" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1535:1842" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1617:1810" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="6:156" ph="..." />
+            <marker date="1519996388823" expanded="true" signature="191:2602" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="441:487" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="504:1177" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="536:948" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="543:622" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
+            <marker date="1519996388823" expanded="true" signature="993:1059" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1179:1397" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
+            <marker date="1519996388823" expanded="true" signature="1468:1754" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1550:1751" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1757:2136" ph="/* IEnumerator RotateEar(Transform tr, float RotEar, float duration) ... */" />
+            <marker date="1519996388823" expanded="true" signature="2238:2598" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2257:2281" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2441:2575" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -443,76 +532,98 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519567388601" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519567388601" expanded="true" signature="113:1844" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="363:409" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="426:889" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="458:660" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="465:544" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
-            <marker date="1519567388601" expanded="true" signature="705:771" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="891:1109" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
-            <marker date="1519567388601" expanded="true" signature="1180:1466" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1262:1463" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1535:1842" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1617:1810" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Anim.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding>
-            <marker date="1519567388601" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519567388601" expanded="true" signature="113:1844" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="363:409" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="426:889" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="458:660" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="465:544" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
-            <marker date="1519567388601" expanded="true" signature="705:771" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="891:1109" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
-            <marker date="1519567388601" expanded="true" signature="1180:1466" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1262:1463" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1535:1842" ph="{...}" />
-            <marker date="1519567388601" expanded="true" signature="1617:1810" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="6:156" ph="..." />
+            <marker date="1519996388823" expanded="true" signature="191:2602" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="441:487" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="504:1177" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="536:948" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="543:622" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
+            <marker date="1519996388823" expanded="true" signature="993:1059" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1179:1397" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
+            <marker date="1519996388823" expanded="true" signature="1468:1754" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1550:1751" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1757:2136" ph="/* IEnumerator RotateEar(Transform tr, float RotEar, float duration) ... */" />
+            <marker date="1519996388823" expanded="true" signature="2238:2598" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2257:2281" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2441:2575" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Eyes.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        <state relative-caret-position="690">
+          <caret line="50" column="35" lean-forward="false" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding>
-            <marker date="1519815264331" expanded="false" signature="6:126" ph="..." />
-            <marker date="1519815264331" expanded="true" signature="170:3227" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="373:960" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="735:814" ph="/* print(eyeMatrix[0,0]); ... */" />
-            <marker date="1519815264331" expanded="true" signature="892:955" ph="/* reset_matrix(eyeMatrix); ... */" />
-            <marker date="1519815264331" expanded="true" signature="1013:1226" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1106:1223" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1137:1211" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1301:1679" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1303:1484" ph="/* GameObject[,] ret = new GameObject[n, n]; ... */" />
-            <marker date="1519815264331" expanded="true" signature="1565:1657" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1596:1653" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1721:1866" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1766:1863" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1797:1851" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1899:2944" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1932:2941" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="1991:2086" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2110:2205" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2229:2324" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2348:2443" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2469:2562" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2588:2681" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2707:2802" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2830:2928" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="2982:3036" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="3060:3137" ph="{...}" />
-            <marker date="1519815264331" expanded="true" signature="3160:3224" ph="{...}" />
+            <marker date="1519817182790" expanded="false" signature="6:126" ph="..." />
+            <marker date="1519817182790" expanded="true" signature="373:1234" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="815:894" ph="/* print(eyeMatrix[0,0]); ... */" />
+            <marker date="1519817182790" expanded="true" signature="1166:1229" ph="/* reset_matrix(eyeMatrix); ... */" />
+            <marker date="1519817182790" expanded="true" signature="1287:1500" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1380:1497" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1411:1485" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1575:1953" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1577:1758" ph="/* GameObject[,] ret = new GameObject[n, n]; ... */" />
+            <marker date="1519817182790" expanded="true" signature="1839:1931" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1870:1927" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="1995:2140" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2040:2137" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2071:2125" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2173:3218" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2206:3215" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2265:2360" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2384:2479" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2503:2598" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2622:2717" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2743:2836" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2862:2955" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="2981:3076" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3104:3202" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3256:3310" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3334:3411" ph="{...}" />
+            <marker date="1519817182790" expanded="true" signature="3434:3498" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MoveObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <marker date="1519989273119" expanded="false" signature="6:44" ph="..." />
+            <marker date="1519989273119" expanded="true" signature="86:1616" ph="{...}" />
+            <marker date="1519989273119" expanded="true" signature="182:321" ph="{...}" />
+            <marker date="1519989273119" expanded="true" signature="196:304" ph="{...}" />
+            <marker date="1519989273119" expanded="true" signature="428:526" ph="{...}" />
+            <marker date="1519989273119" expanded="true" signature="633:756" ph="{...}" />
+            <marker date="1519989273119" expanded="true" signature="881:1188" ph="{...}" />
+            <marker date="1519989273119" expanded="true" signature="1031:1185" ph="{...}" />
+            <marker date="1519989273119" expanded="true" signature="1273:1614" ph="{...}" />
+            <marker date="1519989273119" expanded="true" signature="1473:1611" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Anim.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+          <folding>
+            <marker date="1519996388823" expanded="true" signature="6:156" ph="..." />
+            <marker date="1519996388823" expanded="true" signature="191:2602" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="441:487" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="504:1177" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="536:948" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="543:622" ph="/* PlayAnim(RotNeck, RotEarL, RotEarR); ... */" />
+            <marker date="1519996388823" expanded="true" signature="993:1059" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1179:1397" ph="/* void PlayAnim(float RotNeck, float RotEarL, float RotEarR) ... */" />
+            <marker date="1519996388823" expanded="true" signature="1468:1754" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1550:1751" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="1757:2136" ph="/* IEnumerator RotateEar(Transform tr, float RotEar, float duration) ... */" />
+            <marker date="1519996388823" expanded="true" signature="2238:2598" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2257:2281" ph="{...}" />
+            <marker date="1519996388823" expanded="true" signature="2441:2575" ph="{...}" />
           </folding>
         </state>
       </provider>

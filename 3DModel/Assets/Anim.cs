@@ -1,6 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using UnityEngine;
+using System.Collections;
+using UnityEditor;
 
 public class Anim : MonoBehaviour
 {
@@ -28,7 +32,10 @@ public class Anim : MonoBehaviour
 		//		PlayAnim(RotNeck, RotEarL, RotEarR);	
 	//		StartCoroutine(Rotate(RotNeck));
 			StartCoroutine(RotateHead(WinkyHead, RotNeck, 1));
-	//		StartCoroutine(RotateEar(WinkyEarLeft, RotEarL, 1));
+	//		StartCoroutine(RotateEar(WinkyEarLeft, new Vector3(0, 90, 90), 2f));
+			StartCoroutine(MoveObject.use.Rotation(WinkyEarLeft,  new Vector3(0.0f, 30.0f, 0.0f), 1.0f));
+			StartCoroutine(MoveObject.use.Rotation(WinkyEarRight, new Vector3(0.0f, 30.0f, 0.0f), .0f));
+
 		}
 
 		
@@ -58,7 +65,8 @@ public class Anim : MonoBehaviour
 		}
 	}
 
-	IEnumerator RotateEar(Transform tr, float RotEar, float duration) {
+	/*IEnumerator RotateEar(Transform tr, float RotEar, float duration) 
+	{
 		Quaternion startRot = tr.rotation;
 		float t = 0.0f;
 		while ( t  < duration )
@@ -68,5 +76,30 @@ public class Anim : MonoBehaviour
 			yield return null;
 		}
 		//	tr.rotation = startRot;
+	}*/
+	bool rotating = false;
+	
+	
+	IEnumerator RotateEar(Transform tr, Vector3 eulerAngles, float duration)
+	{
+		if (rotating)
+		{
+			yield break;
+		}
+		rotating = true;
+
+		Vector3 newRot = tr.eulerAngles + eulerAngles;
+
+		Vector3 currentRot = tr.eulerAngles;
+
+		float counter = 0;
+		while (counter < duration)
+		{
+			counter += Time.deltaTime;
+			tr.eulerAngles = Vector3.Lerp(currentRot, newRot, counter / duration);
+			yield return null;
+		}
+		rotating = false;
 	}
+	
 }
